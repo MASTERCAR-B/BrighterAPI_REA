@@ -1,0 +1,38 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets & local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*secret*
+*cookie*
+*token*
+
+# Local REA captures, logs & scratch artifacts
+*.har
+*.saz
+*.pcap
+*.pcapng
+*.log
+*_ev*.json
+scratch/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
